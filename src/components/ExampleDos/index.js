@@ -4,6 +4,7 @@ import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { useGSAP } from "@gsap/react"
 
+
 gsap.registerPlugin(ScrollTrigger)
 
 export const ExampleDos = () => {
@@ -109,16 +110,18 @@ export const ExampleDos = () => {
             >
                 <div
                     ref={currentSectionRef} 
-                    className="w-full h-screen flex justify-center items-center bg-blue-500">
+                    className="w-full h-screen flex justify-center items-center bg-blue-500 z-0 bg-[url('/andres.webp')] bg-cover bg-no-repeat ">
                     <h2 className="text-white text-2xl text-center">Sección dos</h2>
+                    {/* <img src="andres.webp" className="absolute top-0 left-0 w-full h-full -z-10" alt="imgan andres" /> */}
                 </div>
             </section>
             <section 
                 ref={nextSectionRef}
                 className="relative w-full h-screen  flex items-center justify-center bg-green-500"
             >
-                <div className="w-full h-full flex justify-center items-center ">
-                    <h2 className="text-white text-2xl text-center">Sección tres</h2>
+                <div className="w-full h-full flex justify-center items-center">
+                    <h2 className="text-white text-2xl text-center">programa de despegue empresarial</h2>
+                    
                 </div>
             </section>
         </div>

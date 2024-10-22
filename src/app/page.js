@@ -7,7 +7,8 @@ export default function Home() {
     return (
         <div className="relative w-full m-0 p-0">
         
-            <ExampleDos />     
+            <ExampleDos />
+       
         
         </div>
     );

@@ -25,3 +25,9 @@ body {
     text-wrap: balance;
   }
 }
+
+.background-image {
+  background-image: url('/andres.webp');
+  object-fit: cover;
+  background-repeat: none;
+}
