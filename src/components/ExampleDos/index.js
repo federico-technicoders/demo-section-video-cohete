@@ -58,7 +58,8 @@ export const ExampleDos = () => {
             
         )
 
-        // Timeline para la sección 3 (siguiente)
+        //////////////////// Timeline para la sección 3 (siguiente) ///////////////////////
+        
         let tl1 = gsap.timeline({
             scrollTrigger: {
                 trigger: nextSection,
@@ -105,6 +106,8 @@ export const ExampleDos = () => {
             <section className="fixed top-0 left-0 justify-center items-center bg-slate-100 w-full h-screen">
                 <h1>Primera sección </h1>
             </section>
+
+
             <section                 
                 className=" items-center w-full h-[500vh]"            
             >
@@ -115,6 +118,8 @@ export const ExampleDos = () => {
                     {/* <img src="andres.webp" className="absolute top-0 left-0 w-full h-full -z-10" alt="imgan andres" /> */}
                 </div>
             </section>
+
+
             <section 
                 ref={nextSectionRef}
                 className="relative w-full h-screen  flex items-center justify-center bg-green-500"
